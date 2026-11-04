@@ -1,0 +1,6 @@
+{
+  "name": "TrueTech - Premium Tech & Gadgets Store",
+  "description": "TrueTech e-commerce storefront with sleek black and electric blue aesthetics, featuring high-performance gadgets, interactive cart, quick-view modal, and Naira pricing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

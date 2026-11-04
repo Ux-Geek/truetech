@@ -1,10 +1,5 @@
-/**
- * @license
- * SPDX-License-Identifier: Apache-2.0
- */
-
-import TrueTechLandingPage from './components/TrueTechLandingPage';
+import LegendaryLanding from './components/LegendaryLanding';
 
 export default function App() {
-  return <TrueTechLandingPage />;
+  return <LegendaryLanding />;
 }

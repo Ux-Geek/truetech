@@ -297,21 +297,22 @@ img {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  min-height: 42px;
-  padding: 0 28px;
+  min-height: 52px;
+  padding: 0 38px;
   background: var(--truetech-blue);
   border-radius: 50px;
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
   color: #ffffff;
   transition: all 0.2s ease;
-  box-shadow: 0 4px 14px rgba(0, 98, 255, 0.35);
+  box-shadow: 0 6px 20px rgba(0, 98, 255, 0.4);
 }
 
 .hero-cta:hover {
   background: var(--black);
-  transform: translateY(-1px);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
 }
 
 /* ── CATEGORIES (PURE LINEAR ICONS, NO ENCLOSURE) ── */
@@ -642,20 +643,27 @@ img {
 }
 
 .showcase-copy a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+  padding: 0 36px;
   background: var(--black);
   color: white;
-  border-radius: 30px;
-  padding: 12px 24px;
-  font-size: 13px;
-  font-weight: 600;
+  border-radius: 50px;
+  font-size: 15.5px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
   transition: all 0.2s ease;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1.5px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
 }
 
 .showcase-copy a:hover {
   background: var(--truetech-blue);
   border-color: var(--truetech-blue);
-  transform: translateY(-1px);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 98, 255, 0.35);
 }
 
 /* ── BRANDS ───────────────────────────────────────── */
@@ -1313,9 +1321,10 @@ img {
   }
 
   .hero-cta {
-    min-height: 36px;
-    padding-inline: 20px;
-    font-size: 12px;
+    min-height: 46px;
+    padding-inline: 28px;
+    font-size: 15px;
+    font-weight: 700;
   }
 
   .categories-section {
@@ -1417,8 +1426,10 @@ img {
   }
 
   .showcase-copy a {
-    padding: 8px 16px;
-    font-size: 11px;
+    min-height: 44px;
+    padding: 0 24px;
+    font-size: 14px;
+    font-weight: 700;
   }
 
   .brands-section {
